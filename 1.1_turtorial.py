@@ -41,7 +41,8 @@ tyson.begin_fill()
 tyson.circle(17,180)
 tyson.end_fill()
 #ok cool bottom is filled
-
+#idea: add air bubbles that are random every time
+#maybe use an rng does that exist in python
 
 
 tyson.penup()
