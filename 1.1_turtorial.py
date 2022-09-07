@@ -10,14 +10,16 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 import turtle
 tyson=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
+screen.bgcolor('white') # colors the screen
 tyson.pensize(3) # width of pen line
 tyson.speed(10)  # speed of drawing. Go fast to not waste time.
-tyson.color("#ffffff")
-tyson.home()
-tyson.circle(50)
-
-
+tyson.color('black'
+turtle.home()
+tyson.left(90)
+tyson.forward(20)
+turtle.home()
+tyson.right(90)
+tyson.forward(20)
 
 tyson.penup()
 tyson.setpos(200,-300)
