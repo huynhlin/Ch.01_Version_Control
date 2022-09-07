@@ -15,6 +15,7 @@ screen.bgcolor('white') # colors the screen
 tyson.pensize(3) # width of pen line
 tyson.speed(10)  # speed of drawing. Go fast to not waste time.
 tyson.color('black')
+#creating the vial
 tyson.goto(0,100)
 tyson.down()
 tyson.goto(20,100)
@@ -30,6 +31,10 @@ tyson.goto(-20,-100)
 tyson.down()
 tyson.right(90)
 tyson.circle(20,180)
+#filling vial attempt now
+tyson.penup()
+tyson.color('')
+tyson.goto(-19,99)
 
 tyson.penup()
 tyson.setpos(200,-300)
