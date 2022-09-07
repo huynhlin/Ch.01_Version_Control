@@ -15,7 +15,6 @@ screen.bgcolor('white') # colors the screen
 tyson.pensize(3) # width of pen line
 tyson.speed(10)  # speed of drawing. Go fast to not waste time.
 tyson.color('black')
-
 tyson.goto(0,100)
 tyson.down()
 tyson.goto(20,100)
