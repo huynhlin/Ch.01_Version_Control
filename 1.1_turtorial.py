@@ -9,22 +9,27 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 '''
 import turtle
 tyson=turtle.Turtle()
+tyson.penup()
 screen=turtle.Screen() # makes a screen object
 screen.bgcolor('white') # colors the screen
 tyson.pensize(3) # width of pen line
 tyson.speed(10)  # speed of drawing. Go fast to not waste time.
-tyson.color('black'
-turtle.home()
-tyson.left(90)
-tyson.forward(20)
-turtle.home()
-tyson.right(90)
-tyson.forward(20)
+tyson.color('black')
+tyson.goto(0,100)
+tyson.down()
+tyson.goto(20,100)
+tyson.goto(0,100)
+tyson.goto(-20,100)
+tyson.goto(-20,-100)
+tyson.penup()
+tyson.goto(20,100)
+tyson.down()
+tyson.goto(20,-100)
 
 tyson.penup()
 tyson.setpos(200,-300)
 tyson.down()
-tyson.pencolor('#ffffff')
+tyson.pencolor('black')
 
 
 tyson.write('Lindy Huynh',font=("Arial", 16, "normal")) # signs your name to your art
