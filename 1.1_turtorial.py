@@ -33,8 +33,16 @@ tyson.right(90)
 tyson.circle(20,180)
 #filling vial attempt now
 tyson.penup()
-tyson.color('')
-tyson.goto(-19,99)
+tyson.color('#00FF00')
+tyson.goto(-17,-100)
+tyson.left(180)
+tyson.down()
+tyson.begin_fill()
+tyson.circle(17,180)
+tyson.end_fill()
+#ok cool bottom is filled
+
+
 
 tyson.penup()
 tyson.setpos(200,-300)
