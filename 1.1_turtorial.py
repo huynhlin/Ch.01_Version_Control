@@ -41,9 +41,106 @@ tyson.begin_fill()
 tyson.circle(17,180)
 tyson.end_fill()
 #ok cool bottom is filled
+#now make a loop to fill in the rest going horizontally because i cant use fill
+tyson.goto(-17,-100)
+tyson.right(90)
+
+times = 90
+for x in range(times):
+    tyson.forward(34)
+    tyson.left(90)
+    tyson.forward(1)
+    tyson.left(90)
+    tyson.forward(34)
+    tyson.right(90)
+    tyson.forward(1)
+    tyson.right(90)
+
+
 #idea: add air bubbles that are random every time
 #maybe use an rng does that exist in python
+#nvm that would require me to code that they also dont interlap aint nobody got time for that
 
+#adding non random bubbles now
+tyson.penup()
+tyson.color('white')
+tyson.goto(-10,69)
+tyson.pendown()
+tyson.begin_fill()
+tyson.circle(3)
+tyson.end_fill()
+
+tyson.penup()
+tyson.color('white')
+tyson.goto(-5,-110)
+tyson.pendown()
+tyson.begin_fill()
+tyson.circle(3)
+tyson.end_fill()
+
+tyson.penup()
+tyson.color('white')
+tyson.goto(6,40)
+tyson.pendown()
+tyson.begin_fill()
+tyson.circle(3)
+tyson.end_fill()
+
+tyson.penup()
+tyson.color('white')
+tyson.goto(1,0)
+tyson.pendown()
+tyson.begin_fill()
+tyson.circle(3)
+tyson.end_fill()
+
+tyson.penup()
+tyson.color('white')
+tyson.goto(12,-90)
+tyson.pendown()
+tyson.begin_fill()
+tyson.circle(3)
+tyson.end_fill()
+
+tyson.penup()
+tyson.color('white')
+tyson.goto(-3,-50)
+tyson.pendown()
+tyson.begin_fill()
+tyson.circle(3)
+tyson.end_fill()
+
+tyson.penup()
+tyson.color('white')
+tyson.goto(-8,10)
+tyson.pendown()
+tyson.begin_fill()
+tyson.circle(3)
+tyson.end_fill()
+
+#now green bubbles for a final touch
+tyson.penup()
+tyson.color('#00FF00')
+tyson.goto(-8,120)
+tyson.pendown()
+tyson.begin_fill()
+tyson.circle(3)
+tyson.end_fill()
+
+tyson.penup()
+tyson.color('#00FF00')
+tyson.goto(12,130)
+tyson.pendown()
+tyson.begin_fill()
+tyson.circle(3)
+tyson.end_fill()
+
+#make it into a smiley face for fun aint nothing wrong with that
+
+tyson.penup()
+tyson.goto(-2,107)
+tyson.pendown()
+tyson.circle(35,60)
 
 tyson.penup()
 tyson.setpos(200,-300)
