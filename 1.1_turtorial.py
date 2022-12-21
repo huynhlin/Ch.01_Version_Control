@@ -46,7 +46,7 @@ tyson.goto(-17,-100)
 tyson.right(90)
 
 times = 90
-for x in range(times):
+for x in range(90):
     tyson.forward(34)
     tyson.left(90)
     tyson.forward(1)
